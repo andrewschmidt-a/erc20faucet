@@ -1,6 +1,6 @@
 const networkConfig = {
   netId1: {
-    verifyingContract: '0xfab46e002bbf0b4509813474841e0716e6730136',
+    verifyingContract: '0x06b9166f39CaBC94C27319349C1e9b4577a7Ad6E',
     rpcCallRetryAttempt: 10,
     currencyName: 'ETH',
     explorerUrl: {
@@ -16,7 +16,7 @@ const networkConfig = {
     smartContractPollTime: 15
   },
   netId3: {
-    verifyingContract: '0xfab46e002bbf0b4509813474841e0716e6730136',
+    verifyingContract: '0x06b9166f39CaBC94C27319349C1e9b4577a7Ad6E',
     rpcCallRetryAttempt: 10,
     currencyName: 'rETH',
     explorerUrl: {
@@ -28,7 +28,7 @@ const networkConfig = {
     smartContractPollTime: 15
   },
   netId4: {
-    verifyingContract: '0xfab46e002bbf0b4509813474841e0716e6730136',
+    verifyingContract: '0x06b9166f39CaBC94C27319349C1e9b4577a7Ad6E',
     rpcCallRetryAttempt: 10,
     gasPrice: { fast: 1, low: 1, standard: 1 },
     smartContractPollTime: 15,
@@ -39,20 +39,20 @@ const networkConfig = {
     networkName: 'Rinkeby',
     rpcUrl: `https://rinkeby.infura.io/v3/${process.env.infuraId}`
   },
-  netId5: {
-    verifyingContract: '0xBA62BCfcAaFc6622853cca2BE6Ac7d845BC0f2Dc',
-    rpcCallRetryAttempt: 10,
-    gasPrice: { fast: 1, low: 1, standard: 1 },
-    smartContractPollTime: 15,
-    currencyName: 'GöETH',
-    explorerUrl: {
-      tx: 'https://goerli.etherscan.io'
-    },
-    networkName: 'Goerli',
-    rpcUrl: `https://goerli.infura.io/v3/${process.env.infuraId}`
-  },
+  // netId5: {
+  //   verifyingContract: '0xBA62BCfcAaFc6622853cca2BE6Ac7d845BC0f2Dc',
+  //   rpcCallRetryAttempt: 10,
+  //   gasPrice: { fast: 1, low: 1, standard: 1 },
+  //   smartContractPollTime: 15,
+  //   currencyName: 'GöETH',
+  //   explorerUrl: {
+  //     tx: 'https://goerli.etherscan.io'
+  //   },
+  //   networkName: 'Goerli',
+  //   rpcUrl: `https://goerli.infura.io/v3/${process.env.infuraId}`
+  // },
   netId42: {
-    verifyingContract: '0xfab46e002bbf0b4509813474841e0716e6730136',
+    verifyingContract: '0x06b9166f39CaBC94C27319349C1e9b4577a7Ad6E',
     rpcCallRetryAttempt: 10,
     gasPrice: { fast: 1, low: 1, standard: 1 },
     smartContractPollTime: 15,
@@ -63,54 +63,54 @@ const networkConfig = {
     networkName: 'Kovan',
     rpcUrl: `https://kovan.infura.io/v3/${process.env.infuraId}`
   },
-  netId99: {
-    verifyingContract: '0x8dc4f704a5fdf9f09ed561381bd02187201a83b8',
-    rpcCallRetryAttempt: 10,
-    gasPrice: { fast: 1, low: 1, standard: 1 },
-    smartContractPollTime: 15,
-    currencyName: 'POA',
-    explorerUrl: {
-      tx: 'https://blockscout.com/poa/core'
-    },
-    networkName: 'POA',
-    rpcUrl: 'https://core.poa.network'
-  },
-  netId100: {
-    verifyingContract: '0x3111c94b9243a8a99d5a867e00609900e437e2c0',
-    rpcCallRetryAttempt: 10,
-    gasPrice: { fast: 1, low: 1, standard: 1 },
-    smartContractPollTime: 15,
-    currencyName: 'xDai',
-    explorerUrl: {
-      tx: 'https://blockscout.com/poa/dai'
-    },
-    networkName: 'xDai',
-    rpcUrl: 'https://dai.poa.network'
-  },
-  netId77: {
-    verifyingContract: '0x3b6578d5a24e16010830bf6443bc9223d6b53480',
-    rpcCallRetryAttempt: 10,
-    gasPrice: { fast: 1, low: 1, standard: 1 },
-    smartContractPollTime: 15,
-    currencyName: 'SPOA',
-    explorerUrl: {
-      tx: 'https://blockscout.com/poa/sokol'
-    },
-    networkName: 'Sokol',
-    rpcUrl: 'https://sokol.poa.network'
-  },
-  netId56: {
-    verifyingContract: '0x5CD5Bb3EC13CE31771b63632Ddc2EB36E300b96C',
-    rpcCallRetryAttempt: 10,
-    currencyName: 'BNB',
-    explorerUrl: {
-      tx: 'https://bscscan.com'
-    },
-    networkName: 'BNB Smart Chain',
-    rpcUrl: 'https://bsc-dataseed1.binance.org',
-    gasPrice: { fast: 20, low: 20, standard: 20 },
-    smartContractPollTime: 15
-  }
+  // netId99: {
+  //   verifyingContract: '0x8dc4f704a5fdf9f09ed561381bd02187201a83b8',
+  //   rpcCallRetryAttempt: 10,
+  //   gasPrice: { fast: 1, low: 1, standard: 1 },
+  //   smartContractPollTime: 15,
+  //   currencyName: 'POA',
+  //   explorerUrl: {
+  //     tx: 'https://blockscout.com/poa/core'
+  //   },
+  //   networkName: 'POA',
+  //   rpcUrl: 'https://core.poa.network'
+  // },
+  // netId100: {
+  //   verifyingContract: '0x3111c94b9243a8a99d5a867e00609900e437e2c0',
+  //   rpcCallRetryAttempt: 10,
+  //   gasPrice: { fast: 1, low: 1, standard: 1 },
+  //   smartContractPollTime: 15,
+  //   currencyName: 'xDai',
+  //   explorerUrl: {
+  //     tx: 'https://blockscout.com/poa/dai'
+  //   },
+  //   networkName: 'xDai',
+  //   rpcUrl: 'https://dai.poa.network'
+  // },
+  // netId77: {
+  //   verifyingContract: '0x3b6578d5a24e16010830bf6443bc9223d6b53480',
+  //   rpcCallRetryAttempt: 10,
+  //   gasPrice: { fast: 1, low: 1, standard: 1 },
+  //   smartContractPollTime: 15,
+  //   currencyName: 'SPOA',
+  //   explorerUrl: {
+  //     tx: 'https://blockscout.com/poa/sokol'
+  //   },
+  //   networkName: 'Sokol',
+  //   rpcUrl: 'https://sokol.poa.network'
+  // },
+  // netId56: {
+  //   verifyingContract: '0x5CD5Bb3EC13CE31771b63632Ddc2EB36E300b96C',
+  //   rpcCallRetryAttempt: 10,
+  //   currencyName: 'BNB',
+  //   explorerUrl: {
+  //     tx: 'https://bscscan.com'
+  //   },
+  //   networkName: 'BNB Smart Chain',
+  //   rpcUrl: 'https://bsc-dataseed1.binance.org',
+  //   gasPrice: { fast: 20, low: 20, standard: 20 },
+  //   smartContractPollTime: 15
+  // }
 }
 
 export default networkConfig
